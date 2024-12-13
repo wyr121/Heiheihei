@@ -97,11 +97,13 @@ MonoBehaviour:
   m_GameObject: {fileID: 7304022740750567527}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: b8bec0249e23e334598dcc402b113631, type: 3}
+  m_Script: {fileID: 11500000, guid: 91fa54082f0436c418efd3b8bb04141b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   kitchenObjectSO: {fileID: 11400000, guid: 5ff23ceecf0eef943a08979b7210e6aa, type: 2}
   counterTopPoint: {fileID: 718868140943944325}
+  secoundClearCounter: {fileID: 8027926560872587858}
+  testing: 0
 --- !u!1001 &1322895816015217183
 PrefabInstance:
   m_ObjectHideFlags: 0
