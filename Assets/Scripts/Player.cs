@@ -86,7 +86,6 @@ public class Player : MonoBehaviour
         {
             SetSeletedCounter(null);
         }
-        Debug.Log(seletedCounter);
     }
 
     public void HandleMovement()
