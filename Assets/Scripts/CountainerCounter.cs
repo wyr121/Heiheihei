@@ -15,9 +15,7 @@ public class CountainerCounter : BaseCounter
         // 玩家不携带厨房物品
         if (!player.HasKitchenObject())
         {
-            Transform kitchenObjectSOTransform = Instantiate(kitchenObjectSO.prefab);
-            kitchenObjectSOTransform.GetComponent<KitchenObject>().SetKitchenObjectParent(player);
-
+            KitchenObject.SpawnKitchenObject(kitchenObjectSO, player);
             OnPlayerGrabbedObject?.Invoke(this, EventArgs.Empty);
         }
 
