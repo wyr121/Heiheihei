@@ -12,6 +12,7 @@ public class CountainerCounter : BaseCounter
 
     public override void Interact(Player player)
     {
+        // 玩家不携带厨房物品
         if (!player.HasKitchenObject())
         {
             Transform kitchenObjectSOTransform = Instantiate(kitchenObjectSO.prefab);
